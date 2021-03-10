@@ -3,11 +3,12 @@ class NewsAgent:
     def search_by_title(self, title) :
         # list of local news sites
         local_news_sites = [
-            'Herald Zimbabwe',
-            'Newsday Zimbabwe',
-            'H-Metro Zimbabwe',
-            'Sunday Mail Zimbabwe',
-            'Bulawayo 24 Zimbabwe'
+            'Herald',
+            'Newsday',
+            'H-Metro',
+            'Sunday Mail ',
+            'Bulawayo 24 '
+            'Kwayedza'
         ]
         # initialize google news object
         googlenews = GoogleNews()
@@ -37,11 +38,12 @@ class NewsAgent:
     def search_by_category(self, cat) :
         # list of local news sites
         local_news_sites = [
-            'Herald Zimbabwe',
-            'Newsday Zimbabwe',
-            'H-Metro Zimbabwe',
-            'Sunday Mail Zimbabwe',
-            'Bulawayo 24 Zimbabwe'
+            'Herald',
+            'Newsday',
+            'H-Metro',
+            'Sunday Mail',
+            'Bulawayo 24'
+            'wayedza'
         ]
         # initialize google news object
         googlenews = GoogleNews()
